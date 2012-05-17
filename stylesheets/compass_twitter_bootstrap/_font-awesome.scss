@@ -21,7 +21,7 @@
     Work: http://lemonwi.se co-founder
 
     */
-   
+
 @import "compass/css3/font-face";
 $font_path: "fontawesome-webfont" !default;
 
@@ -33,9 +33,7 @@ $font_path: "fontawesome-webfont" !default;
         "#{$font_path}.otf", opentype,
         "#{$font_path}.svgz#FontAwesomeRegular", svg,
         "#{$font_path}.svg#FontAwesomeRegular", svg),
-    '#{$font_path}.eot',
-    normal,
-    normal);
+    '#{$font_path}.eot');
 
 /* sprites.less reset */
 [class^="icon-"],
